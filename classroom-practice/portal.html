@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Examination Portal</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Times New Roman", serif;
+            background-color: #eeeeee;
+        }
+
+        /* Main Container */
+        .container {
+            width: 92%;
+            margin: 30px auto;
+            background-color: white;
+            border: 1px solid #777;
+        }
+
+        /* Header */
+        header {
+            background-color: #79a9d1;
+            height: 145px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #555;
+        }
+
+        header h1 {
+            color: white;
+            font-size: 42px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #b9d7df;
+            text-align: center;
+            padding: 10px;
+            border-bottom: 1px solid #777;
+        }
+
+        nav a {
+            color: #555;
+            text-decoration: underline;
+            margin: 0 3px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        /* Welcome Bar */
+        .welcome-bar {
+            background-color: blue;
+            color: white;
+            padding: 9px 25px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        /* Content */
+        .content {
+            display: flex;
+            min-height: 330px;
+        }
+
+        /* Left Section */
+        .main-content {
+            width: 72%;
+            padding: 45px 25px;
+            border-right: 1px solid #555;
+        }
+
+        .main-content h2 {
+            font-size: 30px;
+            color: #555;
+            margin-top: 0;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #555;
+        }
+
+        .main-content p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Team Section */
+        .team {
+            width: 28%;
+            text-align: center;
+        }
+
+        .team h2 {
+            color: #555;
+            font-size: 24px;
+            font-weight: normal;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #555;
+            margin: 30px 10px;
+        }
+
+        .member {
+            margin: 25px 0;
+            color: #555;
+        }
+
+        .member .name {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .member .role {
+            font-size: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            font-size: 14px;
+            border-top: 1px solid #555;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                width: 98%;
+            }
+
+            header h1 {
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .content {
+                flex-direction: column;
+            }
+
+            .main-content,
+            .team {
+                width: 100%;
+            }
+
+            .main-content {
+                border-right: none;
+                border-bottom: 1px solid #555;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>Smart Examination Portal</h1>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">About</a> |
+            <a href="#">Courses</a> |
+            <a href="#">Exam Schedule</a> |
+            <a href="#">Results</a> |
+            <a href="#">Gallery</a>
+        </nav>
+
+        <!-- Welcome Bar -->
+        <div class="welcome-bar">
+            <marquee> Welcome to Smart Examination Portal – Learn, Test, and Grow! </marquee>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+
+            <section class="main-content">
+
+                <h2> Welcome to Smart Examination Portal</h2>
+
+                <p>
+                    The Smart Examination Portal offers a modern and efficient
+                    way to conduct online tests. Our platform supports
+                    interactive assessments, instant grading, and detailed
+                    analytics for both students and instructors.
+                </p>
+
+                <p>
+                    Whether you are preparing for academic exams or
+                    professional certifications, our system helps you
+                    practice and perform efficiently. We believe in empowering
+                    learners through technology-driven education and seamless
+                    evaluation.
+                </p>
+
+            </section>
+
+            <!-- Team -->
+            <aside class="team">
+
+                <h2>Our Team</h2>
+            <div> <marquee style="text-align: center;"  direction = "up">
+                <div class="member">
+                    <div class="name">Dr. Anjali Sharma</div>
+                    <div class="role">Director</div>
+                </div>
+
+                <div class="member">
+                    <div class="name">Rahul Mehta</div>
+                    <div class="role">Technical Lead</div>
+                </div>
+
+                <div class="member">
+                    <div class="name">Neha Gupta</div>
+                    <div class="role">Exam Coordinator</div>
+                </div>
+            </marquee>  </div>
+            </aside>
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            © 2025 Smart Examination Portal | All Rights Reserved
+        </footer>
+
+    </div>
+
+</body>
+</html>

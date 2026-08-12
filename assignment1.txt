@@ -1,0 +1,58 @@
+ 1. Frontend vs Backend vs Full‑Stack  
+- Frontend:What users see and interact with (buttons, layouts, colors). Example → Flipkart’s product page design.  
+- Backend: The behind‑the‑scenes logic (servers, databases, APIs). Example → Flipkart’s order processing system.  
+- Full‑Stack: Handles both frontend and backend. Example → A developer who builds the UI and also connects it to payment APIs.  
+
+
+
+ 2. Client‑Server Model 
+Client -browser/app-sends a request → Server processes it → Server sends back data → Client displays it.  
+
+
+
+3. How a Browser Loads a Web Page  
+1. You type a website URL.  
+2. Browser finds the server’s IP using DNS.  
+3. Browser sends an HTTP/HTTPS request.  
+4. Server responds with HTML, CSS, JS.  
+5. Browser’s rendering engine displays the page.  
+
+
+
+ 4. Tools for Web Development  
+- VS Code: Editor to write code.  
+- Node.js: Runs JavaScript outside the browser.  
+- Git/GitHub: Version control and collaboration.  
+- Browser (Chrome/Edge):Testing and debugging.  
+- Extensions (Live Server, Prettier): Live preview and auto‑formatting.  
+
+
+
+ 5. Web Server  
+A web server delivers web pages to browsers.  
+- Examples:Apache, Nginx, Microsoft IIS, LiteSpeed.  
+
+
+
+6. Roles in a Project  
+- Frontend Developer:Builds the user interface.  
+- Backend Developer: Manages server logic and APIs.  
+- Database Administrator (DBA): Designs and secures the database.  
+
+
+
+ 8. Static vs Dynamic Websites  
+- Static: Fixed content, doesn’t change. Example → A personal portfolio site.  
+- Dynamic:Content changes based on user or database. Example → Facebook feed.  
+
+
+9. Web Browsers & Rendering Engines  
+- Chrome → Blink
+- Firefox → Gecko
+- Safari → WebKit
+- Edge → Blink
+- Opera → Blink
+
+
+10. Basic Web Architecture Flow 
+Client → Server → Database → APIs → Back to Client.  

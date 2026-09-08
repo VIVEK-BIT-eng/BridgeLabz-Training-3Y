@@ -1,0 +1,31 @@
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.intro {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  padding: 50px;
+}
+.history {
+  background: radial-gradient(circle, #a1c4fd, #c2e9fb);
+  padding: 50px;
+  background-attachment: fixed;
+}
+.attractions {
+  background: url('city.jpg') no-repeat center/cover;
+  padding: 50px;
+  background-attachment: fixed;
+}
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}

@@ -1,0 +1,21 @@
+body {
+  background: #f0f0f0;
+  padding: 20px;
+}
+.newspaper {
+  background: #fff;
+  padding: 20px;
+  column-count: 3;
+  column-gap: 30px;
+  text-align: justify;
+}
+.headline {
+  column-span: all;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.float-img {
+  float: left;
+  width: 150px;
+  margin: 10px;
+}

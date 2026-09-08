@@ -1,0 +1,45 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.bio {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.bio img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.bio p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+  background: #444;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}

@@ -1,0 +1,18 @@
+p {
+  margin: 20px 0;
+}
+p::first-letter {
+  font-size: 2em;
+}
+p::first-line {
+  font-weight: bold;
+}
+mark {
+  background: yellow;
+  color: black;
+}
+blockquote {
+  border-left: 4px solid #333;
+  background: #f9f9f9;
+  padding: 10px;
+}

@@ -1,0 +1,18 @@
+.pricing {
+  display: flex;
+  gap: 20px;
+}
+.plan {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  transition: transform 0.3s, background 0.3s;
+}
+.plan:hover {
+  transform: scale(1.05);
+  background: #f0f0f0;
+}
+.popular {
+  border: 2px solid #0077b6;
+}

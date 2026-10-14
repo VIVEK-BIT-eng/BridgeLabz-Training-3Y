@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+</body>
+
+<script>
+    // JavaScript code can be added here
+    console.log("First Line");
+
+    var a = 10;
+    var b = "Hello, World!";
+    let c = true;
+    const pi = 3.14;
+    console.log(a);
+    console.log(pi);
+    console.log(typeof a);
+    console.log(typeof b);
+    console.log(typeof c);
+    console.log(typeof pi);
+
+   
+    // grading system
+    let grade;
+    if (marks >= 90 && marks <= 100) {
+        grade = "A+";
+    } else if (marks >= 80 && marks <= 89) {
+        grade = "A";
+    } else if (marks >= 70 && marks <= 79) {
+        grade = "B";
+    } else if (marks >= 60 && marks <= 69) {
+        grade = "C";
+    } else if (marks >= 50 && marks <= 59) {
+        grade = "D";
+    } else if (marks >= 0 && marks <= 49) {
+        grade = "F";
+    } else {
+        grade = "Invalid marks";
+    }
+    console.log(grade);
+
+    let a = 10;
+    let b = "10";
+    console.log(a == b); // true (loose equality)
+    console.log(a === b); // false (strict equality)
+    console.log(10 + 20 + "30" + 20); // "303020" (string concatenation)
+    console.log("100" + 60 +68 + "100" + 90); // "100606810090" (string concatenation)
+    
+    let name = "John";
+    let age = 30;
+    console.log(`My name is ${name} and I am ${age} years old.`); // Template literals
+    console.log("My name is " + name + " and I am " + age + " years old."); // String concatenation
+
+    let x = 10.5;
+    console.log(Math.floor(Math.random() * 100)); // Random number between 0 and 99
+    console.log(Math.floor(x)); // 10 (rounds down)
+    console.log(Math.ceil(x)); // 11 (rounds up)
+    console.log(Math.round(x)); // 11 (rounds to the nearest integer)
+    console.log(Math.max(10, 20, 30)); // 30 (maximum value)
+    console.log(Math.min(10, 20, 30)); // 10 (minimum value)
+    for (let i = 0; i < 5; i++) {
+        console.log(i); // Prints numbers from 0 to 4
+    }
+    
+
+    // array
+    let colors = ["red", "green", "blue"];
+    console.log(colors[0]); // "red"
+    console.log(colors.length); // 3
+    colors.push("yellow"); // Adds "yellow" to the end of the array
+    console.log(colors.length); // 4
+    colors.pop(); // removes the last element
+    console.log(colors.length); // 3
+    colors.unshift("purple"); // adds "purple" to the beginning of the array
+    console.log(colors.length); // 4
+    colors.shift(); // removes the first element
+    console.log(colors.length); // 3
+    for (let i = 0; i < colors.length; i++) {
+        console.log(colors[i]); // Prints each color in the array
+    }
+
+    for (let color of colors) {
+        console.log(color); // Prints each color in the array
+    }
+
+    colors.forEach(function(color) {
+        console.log(color); // Prints each color in the array
+    });
+    colors.includes("green"); // true (checks if "green" is in the array)
+    colors.indexOf("blue"); // 2 (returns the index of "blue")
+    colors.reverse(); // reverses the array
+    console.log(colors); // ["blue", "green", "red"]
+    colors.pop(); // removes the last element
+    console.log(colors); // ["blue", "green"]
+</script>
+</html>

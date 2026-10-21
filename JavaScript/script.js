@@ -59,3 +59,21 @@ function otpgenerator() {
     return otp;
 }
 console.log(otpgenerator());
+
+
+
+
+// objects
+
+let student = {
+    id:101,
+    name:"raj",
+    marks:80,
+}
+
+console.log(student["name"]);
+console.log(student.name);
+student.city = "delhi";
+student.marks = 50;
+delete student.id
+console.log(student);

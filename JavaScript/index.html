@@ -7,7 +7,6 @@
 </head>
 <body>
     <h1>JavaScript</h1>
-</body>
 
 <script>
     // JavaScript code can be added here
@@ -91,11 +90,101 @@
     colors.forEach(function(color) {
         console.log(color); // Prints each color in the array
     });
-    colors.includes("green"); // true (checks if "green" is in the array)
+    console.log(colors.includes("green")); // true (checks if "green" is in the array)
     colors.indexOf("blue"); // 2 (returns the index of "blue")
     colors.reverse(); // reverses the array
     console.log(colors); // ["blue", "green", "red"]
     colors.pop(); // removes the last element
     console.log(colors); // ["blue", "green"]
-</script>
-</html>
+    
+
+    //function generator
+    function* generatorFunction() {
+        yield 1;
+        yield 2;
+        yield 3;
+    }
+
+    //type conversion
+    let num = "hello" + 5;
+    console.log(num); // "hello5" (string concatenation)
+    console.log(typeof num); // "string" (type of num is string)
+    let num2 = parseInt("10");
+    console.log(num2); // 10 (converts string to integer)
+    let num3 = parseFloat("10.5");
+    console.log(num3); // 10.5 (converts string to float)
+    let num4 = 10 - "6";
+    console.log(num4); // 4 (subtracts string from number)
+    let num5 = 10 * "2";
+    console.log(num5); // 20 (multiplies string by number)
+    let num6 = "10" - 5;
+    console.log(num6); // 5 (subtracts number from string)
+    let num7 = "hi" *5;
+    console.log(num7); // NaN (not a number, invalid operation)
+    let num8 = "10" / 2;
+    console.log(num8); // 5 (divides string by number)
+    let num9 = 10 / "5";
+    console.log(num9); // 2 (divides number by string)
+
+    console.log(true + 5); // 6 (number addition)
+    console.log(false + 5); // 5 (number addition)
+    console.log(true + true); // 2 (number addition)
+    
+    let num10 = "value" + true;
+    console.log(num10); // "valuetrue" (string concatenation)
+
+
+    // explicit type conversion
+    let str = "123";
+    let num = Number(str);
+    console.log(num); // 123 (converts string to number)
+    console.log(typeof num); // "number" (type of num is number)
+
+    let str2 = "123.45";
+    let num2 = parseFloat(str2);
+    console.log(num2); // 123.45 (converts string to float)
+    console.log(typeof num2); // "number" (type of num2 is number)
+
+    let str3 = "true";
+    let bool = Boolean(str3);
+    console.log(bool); // true (converts string to boolean)
+    console.log(typeof bool); // "boolean" (type of bool is boolean)
+
+    // boolean conversion to number
+    let bool1 = true;
+    let num3 = Number(bool1);
+    console.log(num3); // 1 (converts boolean to number)
+
+    // creating a function two add two numbers
+    function addNumbers(num1, num2) {
+        return num1 + num2;
+    }
+
+    let result = addNumbers(5, 10);
+    console.log(result); // 15 (adds two numbers)
+
+    addNumbers(5, 10); // 15 (adds two numbers)
+
+
+    // arrow function
+    const multiplyNumbers = (num1, num2) => {
+        return num1 * num2;
+    };
+
+    let result2 = multiplyNumbers(5, 10);
+    console.log(result2); // 50 (multiplies two numbers)
+
+    //aarrow function with implicit return
+    const divideNumbers = (num1, num2) => num1 / num2;  
+
+
+    // higher order function
+    function calculate(a,b,add){
+        return add(a,b);
+    }
+
+    let ans = calculate(10, 24, add);
+
+
+
+    
